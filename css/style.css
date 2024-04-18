@@ -116,24 +116,35 @@
     font-style: normal;
     text-align:center;
     position: absolute;
-    top: 20%;
     }
 
 .imagenIndex {
+    display: flex;
     width: 100%;
-    height: 30%;  
-    object-fit: cover;  
+    height: 80%;  
+    object-fit:cover;
+    padding-top: 2%;
     }
 
 /* comunicación de crisis section */
 
-.títuloParrafoeimagen {
+.títuloParrafoeimagen 
+   /* {
    display: grid;
+   display: flex;
    grid-template-columns: repeat(1fr, 2fr);
    grid-template-rows: auto;
    padding: 10px;
    gap: 10px;
-}
+} */
+{
+    display: flex;
+    background-color: none;
+    flex-direction: column;
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    }
 
 .palabrasEnlaces {
     font-family: roboto;
@@ -143,26 +154,27 @@
 }
 
 .crisispng {
-    width:30%;
-    height:10%;
+    width:50%;
+    height:650px;
     object-fit: cover; 
     padding: 10%;
+    padding-top: 2%;
 }
 .planificacionpng {
-    width:30%;
-    height: 50%;
+    width:50%;
+    height:650px;
     object-fit: cover;
     padding: 10%;
-    padding-top: 10%;
+    padding-top: 2%;
  
 }
 
 .logonegroPng {
-    width:30%;
-    height: 50%;
+    width:50%;
+    height:70%px;
     object-fit: cover;
     padding: 10%;
-    padding-top: 10%;
+    padding-top: 2%;
 }
 
 .subtitulo {
@@ -179,11 +191,12 @@
 
 }
 .títuloParrafoeimagenserv {
+    display: flex;
     background-color: none;
-    display: inline-block;
+    flex-direction: column;
     position: relative;
     padding: 50px;
-    width: 60%;    
+    width: 100%;    
 }
 /*portfolio*/
 
