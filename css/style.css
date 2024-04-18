@@ -169,6 +169,20 @@
  
 }
 
+/* servicios */
+ul {
+    list-style: none;
+    text-align: center;
+}
+.barrainicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    padding-top:3%
+}
 .logonegroPng {
     width:50%;
     height:70%px;
@@ -186,8 +200,9 @@
     left: 600px;
 }
 
-.contenedorBody {
-    display: flex;
+.contenedorBody {   
+display: flex;
+align-content: space-between;
 
 }
 .títuloParrafoeimagenserv {
@@ -196,34 +211,38 @@
     flex-direction: column;
     position: relative;
     padding: 50px;
-    width: 100%;    
+    width: 100%;  
 }
-/*portfolio*/
-
-.gallery {
-    display: grid;
+ 
+    /*portfolio*/
+ 
+/* .gallery { */
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding: 20px;
     gap: 20px;
-  }
+  } */
   
-  /* .gallery {
+.gallery {
     display: flex;
     padding: 20px;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
-  } */
+  }
   
   .image {
-    /* flex-grow: 1;
-    flex-basis: 320px; */
-    /* width: 100%; */
+    flex-grow: 1;
+    flex-basis: 320px;
+    width: 100%;
     height: 400px;
     border-radius: 10px;
     overflow: hidden;
+    transition: 0.5s;
   }
-  
+  .image:hover{
+    flex-grow: 3;
+  }
   .image img {
     width: 100%;
     height: 100%;
@@ -232,6 +251,7 @@
   
   .wide {
     grid-column: span 2;
+    
     /* flex-grow: 2;
     flex-basis: 400px; */
   }
@@ -248,8 +268,8 @@
     display: inline-block;
     position: relative;
     width: 100%;
-    padding-left: 5%;
-    padding-top: 5%;
+    padding-left: 2%;
+    padding-top: 3%;
 }
 
 
@@ -269,15 +289,18 @@
 }
 /* contacto */
 .contacto {
-    padding-left: 5%;
-    padding-top: 20px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap:10px
 }
 
 .contacto label {
     color: #66B33A;
     font-family: roboto;
     font-size: 20px;
-    font-weight: 200;      
+    font-weight: 200; 
+    padding: 15px;     
 }
 
 .contacto div {
@@ -288,6 +311,9 @@
     align-items: start;
     display: flex;
     resize: none;
+}
+.caja {
+    width: 700px;
 }
 
 /* footer */
