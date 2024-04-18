@@ -254,6 +254,28 @@
   height: 200%;
   object-fit: contain;
 }
+/* contacto */
+.contacto {
+    padding-left: 5%;
+    padding-top: 20px;
+}
+
+.contacto label {
+    color: #66B33A;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 200;      
+}
+
+.contacto div {
+    padding-bottom: 10px;
+}
+
+.mensaje {
+    align-items: start;
+    display: flex;
+    resize: none;
+}
 
 /* footer */
 
